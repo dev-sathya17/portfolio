@@ -1,5 +1,5 @@
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import { aboutData } from "../data/about";
+import { aboutData } from "../../data/about";
 import "./Home.css";
 const Home = () => {
   const [text] = useTypewriter({

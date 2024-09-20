@@ -14,11 +14,11 @@ export const aboutData = {
     },
     {
       title: "Hands-On Experience",
-      value: "2",
+      value: "2 years",
     },
     {
       title: "Work Experience",
-      value: "1",
+      value: "1 year",
     },
   ],
 };

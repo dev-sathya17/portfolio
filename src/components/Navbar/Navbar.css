@@ -8,9 +8,12 @@
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   margin: 25px 10%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  opacity: 0.9;
 }
 
-/* Logo Container */
 .logo-container p {
   font-size: 1.5rem;
   font-weight: 600;
@@ -20,14 +23,12 @@
   background-color: var(--light);
 }
 
-/* Nav Items */
 .custom-nav-items {
   display: flex;
   gap: 30px;
   align-items: center;
   justify-content: center;
   background-color: var(--light);
-  padding-top: 15px;
 }
 
 .custom-nav-item {
@@ -52,7 +53,6 @@
   color: var(--background);
 }
 
-/* Hamburger Icon */
 .hamburger-icon {
   display: none;
   font-size: 30px;

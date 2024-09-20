@@ -9,7 +9,7 @@
   flex-direction: column;
   gap: 10px;
   padding: 5px;
-  height: 60vh;
+  height: 65vh;
 }
 
 .justify {
@@ -35,22 +35,16 @@
   font-weight: bold;
 }
 
-.home-stat > p {
-  background-color: var(--light);
-}
-
 .home-stat:hover {
   background-color: var(--overlay);
   color: var(--light);
-  p {
-    background-color: var(--overlay);
-  }
 }
 
 @media (max-width: 1100px) {
   .home {
     flex-direction: column;
     justify-content: center;
+    margin-top: 15%;
   }
   .home-info {
     width: 100%;
@@ -58,5 +52,11 @@
   }
   .home-stat {
     width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .home {
+    margin-top: 30%;
   }
 }
