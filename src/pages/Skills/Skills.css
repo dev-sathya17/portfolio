@@ -3,7 +3,7 @@
   position: relative;
 }
 
-.skills-title {
+.title {
   text-align: center;
   margin-bottom: 20px;
   color: var(--accent);
@@ -38,7 +38,7 @@
 }
 
 .carousel-item.active .skill-wrapper {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .line {

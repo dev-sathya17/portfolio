@@ -1,43 +1,47 @@
+import NodeIcon from "../assets/Node.js.png";
+import PostgresSQLIcon from "../assets/PostgresSQL.png";
+import MongoDBIcon from "../assets/MongoDB.png";
+import ReactIcon from "../assets/React.png";
+import ExpressIcon from "../assets/Express.png";
+import FirebaseIcon from "../assets/Firebase.png";
+import SupabaseIcon from "../assets/Supabase.png";
 export const projectsData = [
   {
-    title: "Pro-Manager",
+    title: "Taskify",
     description:
-      "Pro-Manager is a comprehensive project management tool designed for Admins, Team Leaders, and Employees. It features Kanban boards, real-time dashboards, and automated email notifications, enhancing team collaboration and productivity.",
+      "Taskify simplifies task organization through a Kanban board and powerful dashboards. It includes task automation and secure access.",
     keywords: [
       "Kanban Boards",
-      "Context API",
-      "Dashboard Analytics",
+      "Cron Jobs",
+      "Responsive UI",
+      "Charts and Graphs",
+      "Redux",
       "Email Notifications",
-      "Custom Hook",
     ],
-    techStack: [
-      "../assets/MongoDB.png",
-      "../assets/Express.png",
-      "../assets/React.png",
-      "../assets/Node.js.png",
-    ],
-    frontendLink:
-      "https://github.com/dev-sathya17/Project-management-tool-frontend",
-    backendLink:
-      "https://github.com/dev-sathya17/Project-management-tool-backend",
-    liveLink: "https://pro-manager-tool.netlify.app/",
+    techStack: [MongoDBIcon, ExpressIcon, ReactIcon, NodeIcon],
+    frontendLink: "https://github.com/dev-sathya17/taskify-frontend",
+    backendLink: "https://github.com/dev-sathya17/taskify-backend",
+    liveLink: "https://main--taskifysmart.netlify.app/",
   },
+
   {
     title: "Wealth Wise",
-    description: "",
+    description:
+      "Wealth Wise is a personalized finance management tool that helps users manage their income and expenses effectively. It offers automated notifications for recurring expenses and an analytics dashboard for financial insights.",
     keywords: [
-      "Redux",
+      "Analytics",
       "Sequelize",
-      "Paginated Reports",
-      "Charts and Graphs",
       "Email Notifications",
+      "Paginated Reports",
+      "Redux",
+      "Charts and Graphs",
     ],
     techStack: [
-      "../assets/PostgresSQL.png",
-      "../assets/Express.png",
-      "../assets/React.png",
-      "../assets/Node.js.png",
-      "../assets/Supabase.png",
+      PostgresSQLIcon,
+      ExpressIcon,
+      ReactIcon,
+      NodeIcon,
+      SupabaseIcon,
     ],
     frontendLink: "https://github.com/dev-sathya17/wealthwise-frontend",
     backendLink: "https://github.com/dev-sathya17/WealthWise-backend",
@@ -45,36 +49,39 @@ export const projectsData = [
   },
   {
     title: "Quick Fix",
-    description: "",
+    description:
+      "Quick Fix is a ticket management system that enables efficient support ticket handling. It includes real-time chat and an admin dashboard for category and user management.",
     keywords: [
       "Web Sockets",
       "Real-time chat",
       "Google OAuth",
       "Ticket Management",
+      "Charts and Graphs",
+      "Redux",
+      "Email Notifications",
     ],
-    techStack: [
-      "../assets/MongoDB.png",
-      "../assets/Express.png",
-      "../assets/React.png",
-      "../assets/Node.js.png",
-      "../assets/Firebase.png",
-    ],
+    techStack: [MongoDBIcon, ExpressIcon, ReactIcon, NodeIcon, FirebaseIcon],
     frontendLink: "https://github.com/dev-sathya17/QuickFix-frontend",
     backendLink: "https://github.com/dev-sathya17/QuickFix-backend",
     liveLink: "https://quick-fix-tickets.netlify.app/",
   },
   {
-    title: "Taskify",
-    description: "",
-    keywords: ["Kanban Boards", "Cron Jobs", "Responsive UI"],
-    techStack: [
-      "../assets/MongoDB.png",
-      "../assets/Express.png",
-      "../assets/React.png",
-      "../assets/Node.js.png",
+    title: "Pro-Manager",
+    description:
+      "Pro-Manager is a comprehensive project management tool designed for Admins, Team Leaders, and Employees. It features Kanban boards, real-time dashboards, and automated email notifications, enhancing team collaboration and productivity.",
+    keywords: [
+      "Kanban Boards",
+      "Context API",
+      "Custom Hook",
+      "Dashboard Analytics",
+      "Email Notifications",
+      "Charts and Graphs",
     ],
-    frontendLink: "https://github.com/dev-sathya17/taskify-frontend",
-    backendLink: "https://github.com/dev-sathya17/taskify-backend",
-    liveLink: "https://main--taskifysmart.netlify.app/",
+    techStack: [MongoDBIcon, ExpressIcon, ReactIcon, NodeIcon],
+    frontendLink:
+      "https://github.com/dev-sathya17/Project-management-tool-frontend",
+    backendLink:
+      "https://github.com/dev-sathya17/Project-management-tool-backend",
+    liveLink: "https://pro-manager-tool.netlify.app/",
   },
 ];
