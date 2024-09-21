@@ -14,7 +14,11 @@ const Navbar = () => {
       <nav className="custom-navbar">
         <div className="logo-container">
           <img src={Favicon} alt="logo" className="logo" />
-          <a href="" className="resume-btn">
+          <a
+            href="https://drive.google.com/file/d/1ruCtJeRhDWty3RyoAPVgkEnwxa2ADzY9/view?usp=sharing"
+            target="_blank"
+            className="resume-btn"
+          >
             RESUME
           </a>
         </div>

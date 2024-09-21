@@ -1,8 +1,21 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is my personal portfolio website built with React. It showcases my projects, skills, and contact information. The site is responsive, ensuring a seamless experience across devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Smooth scrolling navigation using `react-scroll`.
+- Typewriter effect for dynamic text using `react-typewriter`.
+- Responsive design utilizing Bootstrap CSS and Material-UI.
+- Sections include Home, Skills, Projects, Professional Summary, and Contact.
+- Email support to make connections and communication easier.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **react-scroll**: For smooth scrolling navigation.
+- **react-typewriter**: For creating typewriter text animations.
+- **Bootstrap CSS**: For responsive layout and styling.
+- **Material-UI**: For React components and styling.
