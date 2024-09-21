@@ -24,7 +24,13 @@ const ProfessionalSummary = () => {
 
   return (
     <>
-      <h1 className="title">Professional Summary</h1>
+      <h1
+        className="title"
+        id="professional-summary"
+        name="professional-summary"
+      >
+        Professional Summary
+      </h1>
       <Box
         className="vertical-tabs-container"
         sx={{

@@ -1,6 +1,9 @@
 .home {
   margin: 0 10%;
   margin-top: 13%;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
 .home-info {

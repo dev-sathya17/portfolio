@@ -8,14 +8,21 @@ const Card = ({ project }) => {
       <div className="custom-card-header">
         <p className="project-title">{project.title}</p>
         <div className="tech-stack">
-          {project.techStack.map((tech) => (
-            <img src={tech} alt={tech} className="custom-card-img" />
+          {project.techStack.map((tech, index) => (
+            <img
+              src={tech}
+              alt={tech}
+              className="custom-card-img"
+              key={index}
+            />
           ))}
         </div>
       </div>
       <div className="keywords">
-        {project.keywords.map((keyword) => (
-          <p className="keyword">{keyword}</p>
+        {project.keywords.map((keyword, index) => (
+          <p className="keyword" key={index}>
+            {keyword}
+          </p>
         ))}
       </div>
       <div>

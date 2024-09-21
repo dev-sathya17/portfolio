@@ -4,7 +4,7 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section className="projects" id="projects" name="projects">
       <h1 className="title">Projects</h1>
       <div className="card-container">
         {projectsData.map((project, index) => {

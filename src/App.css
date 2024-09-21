@@ -21,8 +21,8 @@
   scrollbar-color: var(--accent) var(--light);
 }
 
-.app-container {
-  height: 100vh;
-  overflow-y: auto;
+.app {
   background-color: var(--background);
+  height: 100vh;
+  overflow-y: scroll;
 }

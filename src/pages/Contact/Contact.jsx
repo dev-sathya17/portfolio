@@ -3,9 +3,20 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <>
-      <h1 className="title">Contact Me</h1>
+      <h1 className="title" id="contact" name="contact">
+        Contact Me
+      </h1>
       <section className="d-flex align-items-center justify-content-center flex-column">
         <div className="form d-flex justify-content-center align-items-center flex-column gap-5">
+          <div className="input-container">
+            <label htmlFor="name">Name:</label>
+            <input
+              type="text"
+              className="input"
+              placeholder="Enter your name:"
+              id="name"
+            />
+          </div>
           <div className="input-container">
             <label htmlFor="email">Email:</label>
             <input

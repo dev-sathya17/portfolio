@@ -1,3 +1,9 @@
+#professional-summary {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
 .vertical-tabs-container {
   margin: 10vh 10%;
   display: flex;

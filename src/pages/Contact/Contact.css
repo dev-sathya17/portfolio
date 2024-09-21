@@ -1,13 +1,19 @@
+#contact {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
 .form {
   border: 2px solid var(--light);
   width: 100%;
-  max-width: 400px; /* Limits form width for desktop view */
+  max-width: 400px;
   padding: 30px;
   border-radius: 15px;
   margin-top: 25px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .input-container {

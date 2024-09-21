@@ -6,9 +6,10 @@ import Projects from "./pages/Projects/Projects";
 import ProfessionalSummary from "./pages/Professional Summary/ProfessionalSummary";
 import Footer from "./pages/Footer/Footer";
 import Contact from "./pages/Contact/Contact";
+
 const App = () => {
   return (
-    <div className="custom-scrollbar app-container">
+    <div className="app custom-scrollbar" id="app">
       <Navbar />
       <Home />
       <Skills />

@@ -3,7 +3,9 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <>
-      <h1 className="title">Skills</h1>
+      <h1 className="title" id="skills">
+        Skills
+      </h1>
       <section
         id="carouselExample"
         className="skills carousel slide m-5"

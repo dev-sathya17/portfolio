@@ -9,7 +9,7 @@ const Home = () => {
   });
 
   return (
-    <div className="home d-flex justify-content-between">
+    <div className="home d-flex justify-content-between" id="home">
       <div className="home-info">
         <h2>
           Hello &#128075;, <br />

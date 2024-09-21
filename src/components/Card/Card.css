@@ -9,6 +9,9 @@
   justify-content: flex-start;
   gap: 15px;
   transition: 0.3s ease;
+  animation: card-appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
 .custom-card:hover {
