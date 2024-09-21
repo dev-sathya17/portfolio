@@ -2,6 +2,7 @@ import "./Navbar.css";
 import { RxHamburgerMenu, RxCross2 } from "react-icons/rx";
 import { useState } from "react";
 import { Link } from "react-scroll";
+import Favicon from "../../assets/favicon.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
     <>
       <nav className="custom-navbar">
         <div className="logo-container">
-          <p>Logo</p>
+          <img src={Favicon} alt="logo" className="logo" />
           <a href="" className="resume-btn">
             RESUME
           </a>
@@ -26,7 +27,6 @@ const Navbar = () => {
               offset={-78}
               duration={600}
               className="custom-nav-link"
-              activeClass="active"
               containerId="app"
             >
               Home
@@ -40,7 +40,6 @@ const Navbar = () => {
               offset={-45}
               duration={600}
               className="custom-nav-link"
-              activeClass="active"
               containerId="app"
             >
               Skills
@@ -54,7 +53,6 @@ const Navbar = () => {
               offset={-60}
               duration={600}
               className="custom-nav-link"
-              activeClass="active"
               containerId="app"
             >
               Projects
@@ -68,7 +66,6 @@ const Navbar = () => {
               offset={-70}
               duration={600}
               className="custom-nav-link"
-              activeClass="active"
               containerId="app"
             >
               Professional Summary
@@ -82,7 +79,6 @@ const Navbar = () => {
               offset={-70}
               duration={600}
               className="custom-nav-link"
-              activeClass="active"
               containerId="app"
             >
               Contact
@@ -101,67 +97,67 @@ const Navbar = () => {
             onClick={toggleMenu}
           />
           <ul className="custom-nav-body-mob">
-            <li className="custom-nav-item">
+            <li className="custom-nav-item" onClick={toggleMenu}>
               <Link
                 to="home"
                 spy={true}
                 smooth={true}
-                // offset={-70}
-                duration={500}
+                offset={-78}
+                duration={600}
                 className="custom-nav-link"
-                onClick={toggleMenu}
+                containerId="app"
               >
                 Home
               </Link>
             </li>
-            <li className="custom-nav-item">
+            <li className="custom-nav-item" onClick={toggleMenu}>
               <Link
                 to="skills"
                 spy={true}
                 smooth={true}
-                // offset={-70}
-                duration={500}
+                offset={-45}
+                duration={600}
                 className="custom-nav-link"
-                onClick={toggleMenu}
+                containerId="app"
               >
                 Skills
               </Link>
             </li>
-            <li className="custom-nav-item">
+            <li className="custom-nav-item" onClick={toggleMenu}>
               <Link
                 to="projects"
                 spy={true}
                 smooth={true}
-                // offset={-70}
-                duration={500}
+                offset={-60}
+                duration={600}
                 className="custom-nav-link"
-                onClick={toggleMenu}
+                containerId="app"
               >
                 Projects
               </Link>
             </li>
-            <li className="custom-nav-item">
+            <li className="custom-nav-item" onClick={toggleMenu}>
               <Link
                 to="professional-summary"
                 spy={true}
                 smooth={true}
-                // offset={-70}
-                duration={500}
+                offset={-70}
+                duration={600}
                 className="custom-nav-link"
-                onClick={toggleMenu}
+                containerId="app"
               >
                 Professional Summary
               </Link>
             </li>
-            <li className="custom-nav-item">
+            <li className="custom-nav-item" onClick={toggleMenu}>
               <Link
                 to="contact"
                 spy={true}
                 smooth={true}
-                // offset={-70}
-                duration={500}
+                offset={-70}
+                duration={600}
                 className="custom-nav-link"
-                onClick={toggleMenu}
+                containerId="app"
               >
                 Contact
               </Link>

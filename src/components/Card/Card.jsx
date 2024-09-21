@@ -43,7 +43,7 @@ const Card = ({ project }) => {
         </a>
 
         <a href={project.liveLink} className="link-btn" target="_blank">
-          <GoArrowUpRight />
+          <GoArrowUpRight className="live-icon" />
         </a>
       </div>
     </div>
