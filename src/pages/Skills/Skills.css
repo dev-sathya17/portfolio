@@ -1,5 +1,6 @@
 .skills {
-  margin: 10vh 10%;
+  margin: 0 10%;
+  position: relative;
 }
 
 .skills-title {
@@ -8,22 +9,36 @@
   color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 5px;
+  margin-top: 10vh;
 }
 
-.skill {
+.skill-wrapper {
   background-color: var(--bg-dark);
   padding: 15px;
   border-radius: 15px;
   width: 350px;
   min-height: 400px;
-  margin: 15px;
+  margin: 25px auto;
   border: 5px solid var(--light);
+  transition: transform 0.5s ease;
 }
 
-.skill > p {
-  margin: 0;
-  text-align: center;
-  font-size: 18px;
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.carousel-item-next .skill-wrapper,
+.carousel-item-prev .skill-wrapper {
+  transform: scale(0.8);
+}
+
+.carousel-item.active .skill-wrapper {
+  transform: scale(1.1);
 }
 
 .line {
@@ -69,4 +84,30 @@
 .pill:hover {
   background-color: var(--light);
   border-color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .carousel-item-next,
+  .carousel-item-prev {
+    display: none;
+  }
+
+  .carousel-item.active .skill-wrapper {
+    transform: scale(1.1);
+  }
+
+  .skills {
+    margin: 0 5%;
+  }
+
+  .skill-wrapper {
+    width: 60%;
+  }
+  .pill {
+    font-size: 13px;
+  }
+  .skill-img {
+    width: 30px;
+    height: 30px;
+  }
 }
