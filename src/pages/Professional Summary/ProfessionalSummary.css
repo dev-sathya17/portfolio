@@ -1,0 +1,39 @@
+.vertical-tabs-container {
+  margin: 10vh 10%;
+  display: flex;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 20px;
+  padding: 10px;
+}
+
+.tab {
+  font-size: 14px;
+  color: var(--white);
+  background-color: var(--light);
+  color: var(--white);
+  background-color: var(--bg-dark);
+}
+
+.tab-content {
+  background-color: var(--light);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 60%;
+}
+
+.Mui-selected {
+  color: var(--accent);
+  background-color: var(--light);
+  border-right: 2px solid var(--accent);
+}
+
+.MuiTabs-indicator {
+  background-color: var(--accent);
+}
