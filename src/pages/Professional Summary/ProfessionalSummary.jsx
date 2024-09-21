@@ -7,12 +7,16 @@ import {
   List,
   ListItem,
   ListItemText,
+  useMediaQuery,
+  useTheme,
 } from "@mui/material";
 import { professionalSummary } from "../../data/professionalSummary";
 import "./ProfessionalSummary.css";
 
 const ProfessionalSummary = () => {
   const [selectedTab, setSelectedTab] = useState(0);
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   const handleTabChange = (event, newValue) => {
     setSelectedTab(newValue);
@@ -20,39 +24,41 @@ const ProfessionalSummary = () => {
 
   return (
     <>
-      <h1 className="title">professional Summary</h1>
+      <h1 className="title">Professional Summary</h1>
       <Box
         className="vertical-tabs-container"
         sx={{
           display: "flex",
           flexDirection: { xs: "column", md: "row" },
+          justifyContent: "center",
         }}
       >
         <Tabs
-          orientation="vertical"
+          orientation={isMobile ? "horizontal" : "vertical"}
           variant="scrollable"
           value={selectedTab}
           onChange={handleTabChange}
           className="tabs"
           sx={{
-            borderRight: 1,
+            borderRight: isMobile ? "none" : 1,
+            borderBottom: isMobile ? 1 : "none",
             borderColor: "divider",
-            width: "30%",
+            width: { xs: "100%", md: "30%" },
             marginBottom: { xs: 2, md: 0 },
-            justifyContent: "flex-end",
+            justifyContent: { md: "flex-end" },
             "& .MuiTab-root": {
               color: "var(--white)",
               "&.Mui-selected": {
                 color: "var(--accent)",
                 backgroundColor: "var(--light)",
-                borderRight: "2px solid var(--accent)",
+                borderRight: { md: "2px solid var(--accent)" },
               },
             },
             "& .MuiTabs-indicator": {
               backgroundColor: "var(--accent)",
             },
           }}
-          aria-label="Vertical Professional Summary Tabs"
+          aria-label="Professional Summary Tabs"
         >
           {professionalSummary.map((item, index) => (
             <Tab key={index} label={item.title} className="tab" />

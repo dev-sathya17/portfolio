@@ -15,8 +15,6 @@
 .tab {
   font-size: 14px;
   color: var(--white);
-  background-color: var(--light);
-  color: var(--white);
   background-color: var(--bg-dark);
 }
 
@@ -36,4 +34,15 @@
 
 .MuiTabs-indicator {
   background-color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .tabs {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .tab-content {
+    width: 100%;
+  }
 }

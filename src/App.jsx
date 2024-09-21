@@ -4,6 +4,8 @@ import Skills from "./pages/Skills/Skills";
 import "./App.css";
 import Projects from "./pages/Projects/Projects";
 import ProfessionalSummary from "./pages/Professional Summary/ProfessionalSummary";
+import Footer from "./pages/Footer/Footer";
+import Contact from "./pages/Contact/Contact";
 const App = () => {
   return (
     <div className="custom-scrollbar app-container">
@@ -12,6 +14,8 @@ const App = () => {
       <Skills />
       <Projects />
       <ProfessionalSummary />
+      <Contact />
+      <Footer />
     </div>
   );
 };
