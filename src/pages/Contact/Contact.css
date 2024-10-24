@@ -60,3 +60,9 @@
   font-size: 18px;
   transition: 0.3s ease;
 }
+
+@media (max-width: 410px) {
+  .form {
+    max-width: 90%;
+  }
+}

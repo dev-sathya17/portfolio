@@ -8,15 +8,24 @@ const Contact = () => {
     email: "",
     message: "",
   });
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
   };
 
   const handleSubmit = () => {
+    setLoading(true);
     service
       .sendMail(formData)
       .then(({ status, message }) => {
+        if (!message) {
+          alert(
+            "Failed to send message as render server is under maintenance."
+          );
+          setLoading(false);
+          return;
+        }
         if (status === 200) {
           alert(message);
           setFormData({
@@ -27,10 +36,12 @@ const Contact = () => {
         } else {
           alert("Failed to send message. Please try again later.");
         }
+        setLoading(false);
       })
       .catch((err) => {
         alert("Failed to send message. Please try again later.");
         console.log(err);
+        setLoading(false);
       });
   };
 
@@ -78,8 +89,9 @@ const Contact = () => {
             type="submit"
             className="submit-btn d-flex align-items-center justify-content-center gap-1"
             onClick={handleSubmit}
+            disabled={loading}
           >
-            <span>Send</span>
+            <span>{loading ? "Sending..." : "Send"}</span>
             <span>
               <IoSend className="send-icon" />
             </span>

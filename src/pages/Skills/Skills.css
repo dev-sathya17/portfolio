@@ -114,3 +114,19 @@
     height: 30px;
   }
 }
+
+@media (max-width: 410px) {
+  .skills {
+    margin: 0 10%;
+  }
+  .skill-wrapper {
+    width: 90%;
+  }
+  .pill {
+    font-size: 12px;
+  }
+  .skill-img {
+    width: 25px;
+    height: 25px;
+  }
+}

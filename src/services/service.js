@@ -6,7 +6,7 @@ const service = {
       const response = await instance.post("/send", data);
       return { status: response.status, message: response.data.message };
     } catch (error) {
-      return { success: false, error: error.response.data.message };
+      return { success: false, error: error.response };
     }
   },
 };

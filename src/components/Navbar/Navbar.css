@@ -148,3 +148,13 @@
     background-color: var(--light);
   }
 }
+
+@media screen and (max-width: 410px) {
+  .resume-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  .logo-container {
+    gap: 35px;
+  }
+}
