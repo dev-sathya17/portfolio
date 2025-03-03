@@ -16,6 +16,7 @@ import BootstrapIcon from "../assets/Bootstrap.png";
 import GitIcon from "../assets/Git.png";
 import LinuxIcon from "../assets/Linux.png";
 import PostmanIcon from "../assets/Postman.png";
+import AWSIcon from "../assets/AWS.png";
 
 export const skillsData = [
   {
@@ -52,6 +53,10 @@ export const skillsData = [
       { name: "ExpressJS", icon: ExpressIcon },
       { name: "BootstrapCSS", icon: BootstrapIcon },
     ],
+  },
+  {
+    title: "Cloud",
+    skills: [{ name: "Amazon Web Services", icon: AWSIcon }],
   },
   {
     title: "Version Control",

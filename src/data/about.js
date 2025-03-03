@@ -18,7 +18,7 @@ export const aboutData = {
     },
     {
       title: "Work Experience",
-      value: "1 year",
+      value: "1+ years",
     },
   ],
 };
