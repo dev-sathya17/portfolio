@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="logo-container">
           <img src={Favicon} alt="logo" className="logo" />
           <a
-            href="https://drive.google.com/file/d/1W0NGQR_QpFeyTTEvI04ZwnKPXgWjCiTw/view?usp=sharing"
+            href="https://drive.google.com/file/d/19G-shTH89A3_BNm5ppzxVZ2txQEhPQ9s/view?usp=sharing"
             target="_blank"
             className="resume-btn"
           >
