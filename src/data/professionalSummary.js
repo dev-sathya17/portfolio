@@ -3,14 +3,13 @@ export const professionalSummary = [
     title: "Senior Full Stack Developer, Slique Robotics",
     duration: "Nov 2024 - Present",
     highlights: [
-      "◈ Spearheaded the implementation of Role-Based Access Control (RBAC), enhancing system security and streamlining user permission management for the complete user base.",
+      "◈ Spearheaded the implementation of Role-Based Access Control (RBAC), enhancing system security and streamlining user permissions management for the complete user base.",
       "◈ Engineered and deployed API integrations for robot teleoperation, reducing latency by 40% and enabling real-time control for 10+ robotic systems.",
       "◈ Architected and managed AWS infrastructure, including EC2 instances for web socket servers, production applications, and services like IoT Core, DynamoDB, Lambda Functions, and SES, achieving 99.9% uptime.",
       "◈ Automated email reporting workflows using AWS SES and Lambda Functions, cutting manual reporting time by 30% and ensuring timely delivery of critical insights.",
       "◈ Led a UI design revamp and implemented mobile responsiveness, resulting in a 25% increase in user engagement and a 15% reduction in bounce rates.",
       "◈ Integrated third-party APIs via WebSockets to develop real-time dashboards, improving data visibility and enabling faster decision-making for cross-functional teams.",
       "◈ Optimized API performance by reducing server calls by 50%, decreasing latency by 30% and improving overall system efficiency",
-      "◈ Managed 1 junior engineer, providing mentorship and leading the team through feature optimizations and new feature developments, resulting in a 20% faster delivery cycle for key projects.",
     ],
   },
   {
