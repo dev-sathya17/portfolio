@@ -3,13 +3,13 @@ export const professionalSummary = [
     title: "Senior Full Stack Developer, Slique Robotics",
     duration: "Nov 2024 - Present",
     highlights: [
-      "◈ Spearheaded the implementation of Role-Based Access Control (RBAC), enhancing system security and streamlining user permissions management for the complete user base.",
-      "◈ Engineered and deployed API integrations for robot teleoperation, reducing latency by 40% and enabling real-time control for 10+ robotic systems.",
-      "◈ Architected and managed AWS infrastructure, including EC2 instances for web socket servers, production applications, and services like IoT Core, DynamoDB, Lambda Functions, and SES, achieving 99.9% uptime.",
+      "◈ Spearheaded the implementation of Role-Based Access Control (RBAC) using React, TypeScript, and Flask, enhancing system security and streamlining user permissions management for the complete user base.",
+      "◈ Engineered and deployed API integrations for real-time robot teleoperation Flask & PostgreSQL, reducing latency by 40% and improving control for 10+ robotic systems.",
+      "◈ Managed AWS infrastructure (EC2, IoT Core, DynamoDB, Lambda, SES) to ensure 99.9% uptime.",
       "◈ Automated email reporting workflows using AWS SES and Lambda Functions, cutting manual reporting time by 30% and ensuring timely delivery of critical insights.",
-      "◈ Led a UI design revamp and implemented mobile responsiveness, resulting in a 25% increase in user engagement and a 15% reduction in bounce rates.",
-      "◈ Integrated third-party APIs via WebSockets to develop real-time dashboards, improving data visibility and enabling faster decision-making for cross-functional teams.",
-      "◈ Optimized API performance by reducing server calls by 50%, decreasing latency by 30% and improving overall system efficiency",
+      "◈ Led a UI design revamp using React & TypeScript, and implemented mobile responsiveness, resulting in a 25% increase in user engagement and a 15% reduction in bounce rates.",
+      "◈ Integrated real-time dashboards via Web Sockets, improving data visibility and faster decision-making.",
+      "◈ Optimized Flask-based APIs (50% fewer server calls, 30% lower latency), boosting system efficiency.",
     ],
   },
   {
@@ -25,11 +25,13 @@ export const professionalSummary = [
     ],
   },
   {
-    title: "Freelance Full Stack Developer",
-    duration: "Dec 2023 – Feb 2024",
+    title: "Freelance Full Stack Developer - Edusphere Solutions, Puducherry",
+    duration: "June 2023 – Feb 2024",
     highlights: [
-      "◈ Developed a React Native mobile app, Recharge Console, with MySQL and Flask.",
-      "◈ Managed roles for Admin, Distributor, and Retailer, providing mobile and DTH recharge functionality and detailed transaction reports.",
+      "◈ Developed 2 React Native apps - Recharge Console & Tea bench - enhancing financial and order management.",
+      "◈ Recharge Console: Optimized mobile recharges with Flask & MySQL, improving efficiency by 15% and user satisfaction by 20%.",
+      "◈ Tea bench: Streamlined Cafe operations, reducing order processing time by 40% and manual billing effort by 50% via expo-print & RawBT.",
+      "◈ Built secure role-based systems, real-time inventory tracking (25% less stock wastage), and detailed reporting for revenue optimization (35% accuracy boost).",
     ],
   },
   {
@@ -45,7 +47,7 @@ export const professionalSummary = [
     title: "Project Trainee - Zoho Corporation",
     duration: "Aug 2022 – Mar 2023",
     highlights: [
-      "◈ Developed a Java web application called Stockmaster leveraging MySQL for database management,running on a Tomcat server with JSPs and Servlets. The application enables users to buy and sell stocks,download their portfolio, and allows administrators to add new stocks and update individual stock details. The project simulated real-time price fluctuations, delivering an authentic stock trading experience within the user's portfolio.",
+      "◈ Developed Stockmaster, a Java-based stock trading platform using MySQL, JSP, and Servlets, enabling real-time price simulations, portfolio downloads, and admin stock management.",
       "◈ Enhanced the mail module's maintainability and flexibility by refactoring validation processes for accurate mail reception and response, also achieving improved performance.",
       "◈ Enhanced mail module by implementing a fix to properly handle Latin UTF-8 characters.",
     ],
