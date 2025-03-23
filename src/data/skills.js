@@ -17,6 +17,7 @@ import GitIcon from "../assets/Git.png";
 import LinuxIcon from "../assets/Linux.png";
 import PostmanIcon from "../assets/Postman.png";
 import AWSIcon from "../assets/AWS.png";
+import TypescriptIcon from "../assets/Typescript.png";
 
 export const skillsData = [
   {
@@ -25,6 +26,7 @@ export const skillsData = [
       { name: "HTML5", icon: HTML5Icon },
       { name: "CSS3", icon: CSS3Icon },
       { name: "JavaScript", icon: JavaScriptIcon },
+      { name: "TypeScript", icon: TypescriptIcon },
     ],
   },
   {

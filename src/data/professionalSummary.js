@@ -26,8 +26,12 @@ export const professionalSummary = [
   },
   {
     title: "Freelance Full Stack Developer - Edusphere Solutions, Puducherry",
-    duration: "June 2023 – Feb 2024",
+    duration: "May 2023 – May 2024",
     highlights: [
+      "◈ Led a team of 3 engineers, overseeing the successful delivery of 15+ IoT projects from ideation to deployment.",
+      "◈ Collaborated with clients to gather requirements, define project scope, and ensure on-time delivery of tailored IoT solutions.",
+      "◈ Built IoT-based mobile frontends using React Native, enhancing real-time monitoring and device control.",
+      "◈ Designed and developed REST APIs using Flask & MySQL for IoT applications, ensuring secure and scalable data flow.",
       "◈ Developed 2 React Native apps - Recharge Console & Tea bench - enhancing financial and order management.",
       "◈ Recharge Console: Optimized mobile recharges with Flask & MySQL, improving efficiency by 15% and user satisfaction by 20%.",
       "◈ Tea bench: Streamlined Cafe operations, reducing order processing time by 40% and manual billing effort by 50% via expo-print & RawBT.",
