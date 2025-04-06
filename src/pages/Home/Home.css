@@ -18,6 +18,7 @@
 .justify {
   text-align: justify;
   line-height: 24px;
+  white-space: pre-line;
 }
 
 .home-stat {

@@ -20,10 +20,13 @@
   padding: 15px;
   border-radius: 15px;
   width: 350px;
-  min-height: 400px;
+  height: 400px;
   margin: 25px auto;
   border: 5px solid var(--light);
   transition: transform 0.5s ease;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: var(--light) transparent;
 }
 
 .carousel-item-next,

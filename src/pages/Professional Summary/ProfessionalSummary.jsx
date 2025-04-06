@@ -29,7 +29,7 @@ const ProfessionalSummary = () => {
         id="professional-summary"
         name="professional-summary"
       >
-        Professional Summary
+        Work Experience
       </h1>
       <Box
         className="vertical-tabs-container"

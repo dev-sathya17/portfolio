@@ -18,6 +18,8 @@ import LinuxIcon from "../assets/Linux.png";
 import PostmanIcon from "../assets/Postman.png";
 import AWSIcon from "../assets/AWS.png";
 import TypescriptIcon from "../assets/Typescript.png";
+import JiraIcon from "../assets/Jira.png";
+import NginxIcon from "../assets/Nginx.png";
 
 export const skillsData = [
   {
@@ -48,17 +50,20 @@ export const skillsData = [
   {
     title: "Frameworks",
     skills: [
-      { name: "React", icon: ReactIcon },
+      { name: "React.js", icon: ReactIcon },
       { name: "Django", icon: DjangoIcon },
       { name: "Flask", icon: FlaskIcon },
-      { name: "React-Native", icon: ReactNativeIcon },
-      { name: "ExpressJS", icon: ExpressIcon },
-      { name: "BootstrapCSS", icon: BootstrapIcon },
+      { name: "React Native", icon: ReactNativeIcon },
+      { name: "Express.js", icon: ExpressIcon },
+      { name: "Bootstrap 5", icon: BootstrapIcon },
     ],
   },
   {
     title: "Cloud",
-    skills: [{ name: "Amazon Web Services", icon: AWSIcon }],
+    skills: [
+      { name: "Amazon Web Services", icon: AWSIcon },
+      { name: "Nginx", icon: NginxIcon },
+    ],
   },
   {
     title: "Version Control",
@@ -69,6 +74,7 @@ export const skillsData = [
     skills: [
       { name: "Linux", icon: LinuxIcon },
       { name: "Postman", icon: PostmanIcon },
+      { name: "Jira", icon: JiraIcon },
     ],
   },
 ];

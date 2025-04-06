@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="logo-container">
           <img src={Favicon} alt="logo" className="logo" />
           <a
-            href="https://drive.google.com/file/d/1RGG2oJyrXKJ-5M_aLrW3go1UD7tGGnPY/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Kaq5ZdhJy6pYrJLoSPTN1hU4tPyBBIh2/view?usp=sharing"
             target="_blank"
             className="resume-btn"
           >
@@ -72,7 +72,7 @@ const Navbar = () => {
               className="custom-nav-link"
               containerId="app"
             >
-              Professional Summary
+              Work Experience
             </Link>
           </li>
           <li className="custom-nav-item">
