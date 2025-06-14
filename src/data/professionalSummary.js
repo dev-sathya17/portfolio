@@ -1,17 +1,17 @@
 export const professionalSummary = [
   {
     title: "Senior Full Stack Developer – Slique Robotics",
-    duration: "Nov 2024 – Present",
+    duration: "Nov 2024 – Jun 2025",
     highlights: [
-      "◈ As a core member of the product engineering team, led development of scalable, real-time web apps for robotic control systems.",
-      "◈ Implemented Role-Based Access Control (RBAC) using React, TypeScript, and Flask to manage access for 20+ users.",
-      "◈ Revamped UI with dark/light mode via Context API — improved onboarding by 20% and reduced bounce rate by 15%.",
-      "◈ Optimized Flask & PostgreSQL APIs for robotic control, improving accuracy and reducing latency by 40%.",
-      "◈ Integrated WebSockets for real-time telemetry, enabling low-latency control of 10+ robots.",
-      "◈ Managed AWS infra (EC2, IoT Core, Lambda, SES, DynamoDB), maintaining 99.9% uptime and automating alerts (30% ops time saved).",
-      "◈ Reduced server calls by 50% and latency by 30%, significantly boosting API performance.",
-      "◈ Deployed Node.js + React TS landing page on AWS EC2 with Nginx (<1s load time); added scroll/click tracking via Google Analytics.",
-      "◈ Collaborated in Agile sprints via Jira for efficient planning and iterative delivery.",
+      "◈ Implemented RBAC with React, TypeScript, and Flask, securing and managing access for 20+ users.",
+      "◈ Led a full UI revamp, introducing dark/light mode via Context API, boosting onboarding and engagement (−15% bounce).",
+      "◈ Optimized robotic control APIs with Flask & PostgreSQL, cutting latency by 40% and improving real-time accuracy.",
+      "◈ Integrated Web Sockets for low-latency telemetry, enabling seamless control for 10+ robotic systems.",
+      "◈ Managed AWS infrastructure (EC2, IoT Core, DynamoDB, Lambda, SES), ensuring 99.9% uptime.",
+      "◈ Contributed to Agile development cycles using Jira for sprint planning, task tracking, and delivery of prioritized features.",
+      "◈ Launched a Node.js + React (TS) landing page on AWS EC2 (Ubuntu) with Nginx, ensuring 99.9% uptime and faster load times.",
+      "◈ Instrumented Google Analytics for scroll and clickstream tracking to measure engagement.",
+      "◈ Crafted responsive UIs in Next.js with Tailwind CSS and designed REST APIs with OAuth for Google, Outlook, and GitHub.",
     ],
   },
   {
