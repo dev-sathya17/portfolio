@@ -12,7 +12,8 @@ import DjangoIcon from "../assets/Django.png";
 import FlaskIcon from "../assets/Flask.png";
 import ReactNativeIcon from "../assets/React-Native.png";
 import ExpressIcon from "../assets/Express.png";
-import BootstrapIcon from "../assets/Bootstrap.png";
+import TailwindIcon from "../assets/Tailwind CSS.png";
+import NextJSIcon from "../assets/Next.js.png";
 import GitIcon from "../assets/Git.png";
 import LinuxIcon from "../assets/Linux.png";
 import PostmanIcon from "../assets/Postman.png";
@@ -55,7 +56,8 @@ export const skillsData = [
       { name: "Flask", icon: FlaskIcon },
       { name: "React Native", icon: ReactNativeIcon },
       { name: "Express.js", icon: ExpressIcon },
-      { name: "Bootstrap 5", icon: BootstrapIcon },
+      { name: "Tailwind CSS", icon: TailwindIcon },
+      { name: "Next.js", icon: NextJSIcon },
     ],
   },
   {
