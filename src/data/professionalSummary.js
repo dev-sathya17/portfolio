@@ -1,5 +1,25 @@
 export const professionalSummary = [
   {
+    title: "Freelance Full-Stack Developer",
+    duration: "Jun 2025 – Present",
+    highlights: [
+      "◈ Developed a full-stack e-commerce web application for a food-based client using MongoDB, Express.js, React.js, and Node.js, improving product order flow efficiency by ~30%.",
+      "◈ Designed and implemented scalable RESTful APIs with optimized data models and caching to reduce API response time by ~25%.",
+      "◈ Applied SOLID principles, repository pattern, and modular design to improve maintainability and extensibility of backend services.",
+      "◈ Integrated rate limiting, JWT authentication, and input validation for secure and compliant API endpoints.",
+      "◈ Configured AWS EC2 for backend deployment and AWS Amplify for React frontend hosting; utilized S3 for static file storage and image uploads.",
+      "◈ Built and maintained a CI/CD pipeline using GitHub Actions, enabling automatic test, build, and deploy cycles, cutting deployment time by ~40%.",
+      "◈ Tech Stack: React.js, Node.js, Express.js, MongoDB, AWS (EC2, Amplify, S3), GitHub Actions, JavaScript/TypeScript, REST API.",
+      "",
+      "◈ Engineered an event-driven trading bot using Python and PostgreSQL, achieving low-latency execution and near real-time trade decisioning (<100ms event response).",
+      "◈ Implemented asynchronous queue-based architecture for parallelized logging and database operations, increasing throughput and reliability under load.",
+      "◈ Automated end-to-end trade workflows, integrating file-based logs and PostgreSQL analytics storage for backtesting and performance monitoring.",
+      "◈ Developed and optimized communication protocols with brokers’ APIs to ensure high-frequency trade execution and consistent data synchronization.",
+      "◈ Built a web-based control dashboard using React, TypeScript, and Tailwind CSS with a Flask backend for monitoring and manual overrides.",
+      "◈ Tech Stack: Python, PostgreSQL, Flask, React.js, TypeScript, Tailwind CSS, WebSockets, AsyncIO, REST API.",
+    ],
+  },
+  {
     title: "Senior Full Stack Developer – Slique Robotics",
     duration: "Nov 2024 – Jun 2025",
     highlights: [
