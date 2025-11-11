@@ -26,7 +26,7 @@ export const professionalSummary = [
       "◈ Implemented RBAC with React, TypeScript, and Flask, securing and managing access for 20+ users.",
       "◈ Led a full UI revamp, introducing dark/light mode via Context API, boosting onboarding and engagement (−15% bounce).",
       "◈ Optimized robotic control APIs with Flask & PostgreSQL, cutting latency by 40% and improving real-time accuracy.",
-      "◈ Integrated Web Sockets for low-latency telemetry, enabling seamless control for 10+ robotic systems.",
+      "◈ Integrated Web Sockets for low-latency teleoperation, enabling seamless control for 10+ robotic systems.",
       "◈ Managed AWS infrastructure (EC2, IoT Core, DynamoDB, Lambda, SES), ensuring 99.9% uptime.",
       "◈ Contributed to Agile development cycles using Jira for sprint planning, task tracking, and delivery of prioritized features.",
       "◈ Launched a Node.js + React (TS) landing page on AWS EC2 (Ubuntu) with Nginx, ensuring 99.9% uptime and faster load times.",
